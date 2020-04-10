@@ -21,8 +21,7 @@
 
 
 class Vehicle():
-    def __init__(self, name):
-        self.name = name
+    pass
 
 
 class GroundVehicle(Vehicle):
@@ -46,3 +45,4 @@ class Starship(FlightVehicle):
 
 
 class Airplane(FlightVehicle):
+    pass
